@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Readers' Haven. Book Registration & Order Form</title>
+</head>
+<body>
+
+  <h2>Readers' Haven. Book Registration & Order Form</h2>
+
+  <form action="thankyou.html" target="_blank">
+
+    <input type="hidden" name="form" value="Readers Haven Book Order">
+
+    Customer Name: <input type="text" placeholder="Enter your name" required><br>
+    Email: <input type="email" placeholder="Enter your email" required><br>
+    Mobile Number: <input type="tel" placeholder="Enter mobile number" required><br>
+    Age: <input type="number" min="10"><br>
+    Password: <input type="password" required><br>
+
+    Delivery Date: <input type="date"><br>
+    Preferred Delivery Time: <input type="time"><br>
+
+    Favorite Book Category:
+    <select required>
+      <option value="">--Select--</option>
+      <option>Fiction</option>
+      <option>Science</option>
+      <option>History</option>
+      <option>Children's Books</option>
+    </select><br>
+
+    Book Title: <input type="text"><br>
+    Quantity: <input type="number" min="1" value="1"><br>
+
+    Preferred Payment Method:
+    <input type="radio" name="pay"> Cash on Delivery
+    <input type="radio" name="pay"> Online Payment<br>
+
+    Additional Services:
+    <input type="checkbox"> Gift Wrapping
+    <input type="checkbox"> Bookmark
+    <input type="checkbox"> Express Delivery
+    <input type="checkbox"> Greeting Card<br>
+
+    Reference Document:
+    <input type="file" accept=".jpg,.png,.pdf"><br>
+
+    Delivery Address:<br>
+    <textarea rows="4" cols="40" placeholder="Enter your delivery address"></textarea><br>
+
+    Special Instructions:<br>
+    <textarea rows="3" cols="40" placeholder="Any special instructions"></textarea><br>
+
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+
+  </form>
+
+</body>
+</html>
